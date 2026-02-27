@@ -10,7 +10,7 @@ public class HelloController {
 
     @GetMapping
     public String home() {
-        return "CI/CD working successfully 0";
+        return "CI/CD working 0";
     }
 
     @GetMapping("/version")
